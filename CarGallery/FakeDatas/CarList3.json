@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "Make": "Nissan",
+    "Model": "Sentra",
+    "Year": 1992,
+    "ImagePath": "http://dummyimage.com/214x100.png/cc0000/ffffff"
+  },
+  {
+    "Id": 2,
+    "Make": "Mitsubishi",
+    "Model": "Tredia",
+    "Year": 1985,
+    "ImagePath": "http://dummyimage.com/137x100.png/5fa2dd/ffffff"
+  },
+  {
+    "Id": 3,
+    "Make": "Cadillac",
+    "Model": "Escalade EXT",
+    "Year": 2003,
+    "ImagePath": "http://dummyimage.com/217x100.png/dddddd/000000"
+  },
+  {
+    "Id": 4,
+    "Make": "Mercedes-Benz",
+    "Model": "SL-Class",
+    "Year": 1994,
+    "ImagePath": "http://dummyimage.com/132x100.png/cc0000/ffffff"
+  },
+  {
+    "Id": 5,
+    "Make": "Mitsubishi",
+    "Model": "Starion",
+    "Year": 1984,
+    "ImagePath": "http://dummyimage.com/163x100.png/5fa2dd/ffffff"
+  },
+  {
+    "Id": 6,
+    "Make": "Mercury",
+    "Model": "Capri",
+    "Year": 1984,
+    "ImagePath": "http://dummyimage.com/155x100.png/dddddd/000000"
+  },
+  {
+    "Id": 7,
+    "Make": "Lincoln",
+    "Model": "MKT",
+    "Year": 2012,
+    "ImagePath": "http://dummyimage.com/163x100.png/ff4444/ffffff"
+  },
+  {
+    "Id": 8,
+    "Make": "BMW",
+    "Model": "600",
+    "Year": 1957,
+    "ImagePath": "http://dummyimage.com/175x100.png/cc0000/ffffff"
+  },
+  {
+    "Id": 9,
+    "Make": "Mitsubishi",
+    "Model": "Lancer",
+    "Year": 2001,
+    "ImagePath": "http://dummyimage.com/139x100.png/ff4444/ffffff"
+  },
+  {
+    "Id": 10,
+    "Make": "Mercury",
+    "Model": "Cougar",
+    "Year": 1985,
+    "ImagePath": "http://dummyimage.com/204x100.png/ff4444/ffffff"
+  }
+]

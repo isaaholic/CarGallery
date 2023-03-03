@@ -1,0 +1,10 @@
+[{"Id":1,"Make":"Cadillac","Model":"DeVille","Year":1992,"ImagePath":"http://dummyimage.com/127x100.png/dddddd/000000"},
+{"Id":2,"Make":"Chrysler","Model":"Crossfire","Year":2005,"ImagePath":"http://dummyimage.com/117x100.png/5fa2dd/ffffff"},
+{"Id":3,"Make":"Ford","Model":"Bronco","Year":1992,"ImagePath":"http://dummyimage.com/223x100.png/dddddd/000000"},
+{"Id":4,"Make":"Jaguar","Model":"XK Series","Year":2004,"ImagePath":"http://dummyimage.com/221x100.png/ff4444/ffffff"},
+{"Id":5,"Make":"Maserati","Model":"GranSport","Year":2006,"ImagePath":"http://dummyimage.com/240x100.png/5fa2dd/ffffff"},
+{"Id":6,"Make":"Nissan","Model":"Titan","Year":2006,"ImagePath":"http://dummyimage.com/188x100.png/cc0000/ffffff"},
+{"Id":7,"Make":"Mercedes-Benz","Model":"C-Class","Year":2005,"ImagePath":"http://dummyimage.com/227x100.png/5fa2dd/ffffff"},
+{"Id":8,"Make":"MINI","Model":"Cooper","Year":2007,"ImagePath":"http://dummyimage.com/210x100.png/ff4444/ffffff"},
+{"Id":9,"Make":"Chrysler","Model":"Sebring","Year":2000,"ImagePath":"http://dummyimage.com/132x100.png/ff4444/ffffff"},
+{"Id":10,"Make":"Dodge","Model":"Viper","Year":1993,"ImagePath":"http://dummyimage.com/127x100.png/dddddd/000000"}]

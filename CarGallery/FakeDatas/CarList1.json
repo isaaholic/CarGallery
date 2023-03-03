@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "Make": "Aston Martin",
+    "Model": "DB9",
+    "Year": 2012,
+    "ImagePath": "http://dummyimage.com/205x100.png/5fa2dd/ffffff"
+  },
+  {
+    "Id": 2,
+    "Make": "Nissan",
+    "Model": "Armada",
+    "Year": 2010,
+    "ImagePath": "http://dummyimage.com/242x100.png/ff4444/ffffff"
+  },
+  {
+    "Id": 3,
+    "Make": "Toyota",
+    "Model": "Camry",
+    "Year": 2009,
+    "ImagePath": "http://dummyimage.com/249x100.png/ff4444/ffffff"
+  },
+  {
+    "Id": 4,
+    "Make": "Chevrolet",
+    "Model": "3500",
+    "Year": 1995,
+    "ImagePath": "http://dummyimage.com/149x100.png/ff4444/ffffff"
+  },
+  {
+    "Id": 5,
+    "Make": "Dodge",
+    "Model": "Ram 1500",
+    "Year": 2002,
+    "ImagePath": "http://dummyimage.com/105x100.png/cc0000/ffffff"
+  },
+  {
+    "Id": 6,
+    "Make": "Chrysler",
+    "Model": "Town & Country",
+    "Year": 2012,
+    "ImagePath": "http://dummyimage.com/185x100.png/ff4444/ff,ffff"
+  },
+  {
+    "Id": 7,
+    "Make": "Honda",
+    "Model": "Prelude",
+    "Year": 1984,
+    "ImagePath": "http://dummyimage.com/155x100.png/cc0000/ffffff"
+  },
+  {
+    "Id": 8,
+    "Make": "Toyota",
+    "Model": "Yaris",
+    "Year": 2008,
+    "ImagePath": "http://dummyimage.com/171x100.png/ff4444/ffffff"
+  },
+  {
+    "Id": 9,
+    "Make": "Chrysler",
+    "Model": "Sebring",
+    "Year": 1997,
+    "ImagePath": "http://dummyimage.com/228x100.png/5fa2dd/ffffff"
+  },
+  {
+    "Id": 10,
+    "Make": "Hyundai",
+    "Model": "Santa Fe",
+    "Year": 2005,
+    "ImagePath": "http://dummyimage.com/201x100.png/cc0000/ffffff"
+  }
+]

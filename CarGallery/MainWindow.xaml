@@ -1,0 +1,103 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarGallery"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" x:Class="CarGallery.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="1" Grid.Column="1">
+            <ScrollViewer Margin="0,10,0,0" VerticalScrollBarVisibility="Auto">
+                <ItemsControl x:Name="CarsList" ItemsSource="{Binding Cars}">
+                    <ItemsControl.ItemsPanel >
+                        <ItemsPanelTemplate>
+                            <WrapPanel ItemWidth="200" ItemHeight="250"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Margin="10 " BorderThickness="2" BorderBrush="Black">
+                                <StackPanel Orientation="Vertical">
+                                    <Image Width="100" Height="150" Source="{Binding ImagePath}"/>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="Make: "/>
+                                        <TextBlock Grid.Column="1" Text="{Binding Make}"/>
+                                    </Grid>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="Model: "/>
+                                        <TextBlock Grid.Column="1" Text="{Binding Model}"/>
+                                    </Grid>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="Year: "/>
+                                        <TextBlock Grid.Column="1" Text="{Binding Year}"/>
+                                    </Grid>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="2">
+            <Button x:Name="CancelBtn" Height="30" Margin="5"  Content="Cancel" Click="CancelBtn_Click" />
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Row="0" Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="69*"/>
+                    <ColumnDefinition Width="16*"/>
+                </Grid.ColumnDefinitions>
+                <RadioButton Content="Single" x:Name="rb_single" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,14,0,0" IsChecked="True"/>
+                <RadioButton Content="Multi" x:Name="rb_multi" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,41,0,0"/>
+            </Grid>
+
+
+            <Grid Grid.Column="3">
+                <TextBlock Text="Timer:" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="16"/>
+            </Grid>
+
+            <Grid Grid.Column="4">
+                <TextBlock x:Name="Timertxtbox" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="16"/>
+            </Grid>
+
+            <Grid Grid.Column="6">
+                <Button x:Name="StartBtn" Content="Start" Height="30" Margin="5" Click="StartBtn_Click"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
